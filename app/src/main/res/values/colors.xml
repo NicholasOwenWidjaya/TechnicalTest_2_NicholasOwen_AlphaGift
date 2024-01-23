@@ -12,9 +12,12 @@
 
 <!--    SIZE-->
     <dimen name="text_header">50dp</dimen>
+    <dimen name="text_big">25dp</dimen>
     <dimen name="text_normal">15dp</dimen>
     <dimen name="card_input_h">50dp</dimen>
     <dimen name="card_margin_w">15dp</dimen>
     <dimen name="image_size">25dp</dimen>
+    <dimen name="icon_size">40dp</dimen>
+    <dimen name="menu_size">35dp</dimen>
     <dimen name="btn_size">130dp</dimen>
 </resources>

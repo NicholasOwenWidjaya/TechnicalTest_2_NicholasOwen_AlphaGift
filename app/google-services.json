@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "274265729877",
+    "project_id": "alphagift-nicholasowen",
+    "storage_bucket": "alphagift-nicholasowen.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:274265729877:android:e7a14b9ac0cb78de029ddc",
+        "android_client_info": {
+          "package_name": "com.example.technicaltest_2_nicholasowen_alphagift"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZdl0mOaYl1rTZGn80JcA8lHj7nlUeimU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,7 +1,6 @@
 package com.example.technicaltest_2_nicholasowen_alphagift
 
 import android.content.Intent
-import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.InputType
@@ -11,6 +10,8 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.cardview.widget.CardView
 import androidx.core.content.ContextCompat
+import android.graphics.Typeface
+
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -65,13 +66,15 @@ class MainActivity : AppCompatActivity() {
         val seek = findViewById<ImageView>(R.id.passwordSeek)
         var isOn = false
 
-        seek.setOnClickListener() {
+        seek.setOnClickListener {
             if (!isOn) {
-                password.inputType = InputType.TYPE_CLASS_TEXT or InputType.TYPE_TEXT_VARIATION_VISIBLE_PASSWORD
+                password.inputType = InputType.TYPE_CLASS_TEXT or InputType.TYPE_TEXT_VARIATION_NORMAL
+                password.typeface = Typeface.DEFAULT // Set default font
                 seek.setImageResource(R.drawable.baseline_remove_red_eye_24_click)
                 isOn = true
-            } else if (isOn){
+            } else {
                 password.inputType = InputType.TYPE_CLASS_TEXT or InputType.TYPE_TEXT_VARIATION_PASSWORD
+                password.typeface = Typeface.DEFAULT // Set default font
                 seek.setImageResource(R.drawable.baseline_remove_red_eye_24)
                 isOn = false
             }

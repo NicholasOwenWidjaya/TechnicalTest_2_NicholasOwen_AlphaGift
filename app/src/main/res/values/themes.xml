@@ -4,6 +4,7 @@
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
         <item name="colorPrimary">@color/my_light_primary</item>
+        <item name="android:fontFamily">@font/raleway</item>
     </style>
 
     <style name="Theme.TechnicalTest_2_NicholasOwen_AlphaGift" parent="Base.Theme.TechnicalTest_2_NicholasOwen_AlphaGift" />
