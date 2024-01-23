@@ -3,6 +3,8 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="accent">#DD4040</color>
+    <color name="errorbg">#FFA3A3</color>
+    <color name="errortxt">#D80C0C</color>
     <color name="my_light_primary">#D13131</color>
 
 <!--    MARGINS-->
@@ -12,4 +14,7 @@
     <dimen name="text_header">50dp</dimen>
     <dimen name="text_normal">15dp</dimen>
     <dimen name="card_input_h">50dp</dimen>
+    <dimen name="card_margin_w">15dp</dimen>
+    <dimen name="image_size">25dp</dimen>
+    <dimen name="btn_size">130dp</dimen>
 </resources>
